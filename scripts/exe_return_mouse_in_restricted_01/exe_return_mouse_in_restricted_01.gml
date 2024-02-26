@@ -1,7 +1,7 @@
 function exe_return_mouse_in_restricted_01()
 {
 	var _in_restricted = -1;
-	for(_ii = 0; _ii < array_length(click_restricted); _ii++)
+	for(var _ii = 0; _ii < array_length(click_restricted); _ii++)
 		{
 			var _this_restricted = click_restricted[_ii];
 			var _xx1 = _this_restricted[0];
